@@ -6,7 +6,7 @@ import io
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
-REMOVE_BG_API_KEY = "7ex4pZaBGFLrRZCa7X74ztKh"  # Replace with your API key from https://www.remove.bg/api
+REMOVE_BG_API_KEY = "UPjC311BtCeEtEjzd3nBQWBN"  # Replace with your API key from https://www.remove.bg/api
 
 @app.route("/")
 def index():
@@ -57,4 +57,5 @@ def remove_background():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)
